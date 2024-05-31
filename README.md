@@ -12,6 +12,9 @@ Flask version is 3.0.3+
 
 python -m venv .venv
 
+# in fish
+source .venv/bin/activate.fish
+
 ```
 
 ### Poetry
@@ -56,11 +59,6 @@ pre-commit install
 ### flask run command
 
 your need edit wsgi.py file chanage your project name.
-
-```shell
-# in fish
-set FALSK_APP wsgi.py
-```
 
 ```shell
 flask run
