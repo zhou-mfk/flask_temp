@@ -1,11 +1,20 @@
 # Flask Template Project
 
-
 This is a Template for Flask use Poetry manager python lib
 
 python version is 3.11+
 
-## Poetry
+Flask version is 3.0.3+
+
+### Python env
+
+```shell
+
+python -m venv .venv
+
+```
+
+### Poetry
 
 ```shell
 pip install poetry
@@ -44,7 +53,7 @@ pre-commit install
 
 **flask_temp** is a default name. your need change it
 
-### flask command
+### flask run command
 
 your need edit wsgi.py file chanage your project name.
 
